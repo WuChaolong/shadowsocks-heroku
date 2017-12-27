@@ -188,7 +188,7 @@
           buf.write("\u0000\u0000\u0000\u0000", 4, 4, "binary");
           buf.writeInt16BE(remotePort, 8);
           connection.write(buf);
-          if (HTTPPROXY) {
+          if (false&&HTTPPROXY) {
             endpoint = aServer;
             parsed = url.parse(endpoint);
             opts = url.parse(HTTPPROXY);

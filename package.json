@@ -10,6 +10,6 @@
     "node": "4.x"
   },
   "scripts": {
-    "start": "node server.js -b 0.0.0.0"
+    "start": "node local.js -s shadowsocks-taifu.herokuapp.com -l 1081 -m rc4-md5 -k 521xueweihan -r 80"
   }
 }
